@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <title>Original abstract horizon for the public demo</title>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#0a102b"/>
+      <stop offset=".42" stop-color="#3a326d"/>
+      <stop offset=".71" stop-color="#b96d94"/>
+      <stop offset="1" stop-color="#f7c49d"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#fff2cc" stop-opacity=".86"/>
+      <stop offset=".38" stop-color="#ffb58f" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#ec8cbe" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="water" x2="0" y2="1">
+      <stop stop-color="#755d91"/>
+      <stop offset=".48" stop-color="#20355f"/>
+      <stop offset="1" stop-color="#0b1733"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x2="1" y2="1">
+      <stop stop-color="#f2b6bd"/>
+      <stop offset=".55" stop-color="#8585d1"/>
+      <stop offset="1" stop-color="#75b9d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <ellipse cx="1260" cy="380" rx="480" ry="440" fill="url(#halo)"/>
+  <circle cx="1260" cy="382" r="168" fill="#ffe4b7"/>
+  <path d="M0 659 150 574 324 625 480 529 681 642 842 563 1008 633 1142 585 1310 647 1454 555 1640 642 1780 571 1920 620V1080H0Z" fill="#362e61" opacity=".48"/>
+  <path d="M0 716 190 647 368 702 550 625 724 721 902 650 1097 711 1290 644 1481 717 1650 653 1820 706 1920 674V1080H0Z" fill="#16284f" opacity=".86"/>
+  <path d="M0 711Q470 659 960 697T1920 691V1080H0Z" fill="url(#water)"/>
+  <path d="M0 731Q460 682 954 715T1920 710" fill="none" stroke="#f4add2" stroke-width="4" opacity=".7"/>
+  <path d="M-60 806Q470 741 945 790T1990 762" fill="none" stroke="#a88dcc" stroke-width="5" opacity=".64"/>
+  <path d="M-40 907Q393 829 900 874T1950 837" fill="none" stroke="#91acd2" stroke-width="5" opacity=".48"/>
+  <path d="M-80 1012Q434 923 974 969T2000 932" fill="none" stroke="#77a7c8" stroke-width="4" opacity=".43"/>
+  <path d="M110 1035C466 770 525 481 697 445c147-31 214 154 335 129 114-24 114-192 268-188" fill="none" stroke="url(#ribbon)" stroke-width="31" opacity=".22" stroke-linecap="round"/>
+  <path d="M110 1035C466 770 525 481 697 445c147-31 214 154 335 129 114-24 114-192 268-188" fill="none" stroke="#f5d8e6" stroke-width="3" opacity=".8" stroke-linecap="round"/>
+  <path d="M1568 18C1410 122 1561 274 1708 305c132 28 167-89 259-104" fill="none" stroke="#b6b9e8" stroke-width="10" opacity=".3" stroke-linecap="round"/>
+  <g fill="#f9d8dc" opacity=".85">
+    <circle cx="217" cy="180" r="4"/><circle cx="352" cy="328" r="3"/><circle cx="575" cy="138" r="5"/>
+    <circle cx="761" cy="251" r="3"/><circle cx="970" cy="103" r="4"/><circle cx="1566" cy="143" r="4"/>
+    <circle cx="1724" cy="399" r="3"/><circle cx="1847" cy="105" r="5"/><circle cx="143" cy="429" r="3"/>
+  </g>
+  <g fill="none" stroke="#ffdde2" stroke-width="3" opacity=".82">
+    <path d="M433 91v28m-14-14h28"/><path d="M1065 225v22m-11-11h22"/>
+    <path d="M1634 481v26m-13-13h26"/><path d="M1742 217v18m-9-9h18"/>
+  </g>
+</svg>
