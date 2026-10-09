@@ -1,0 +1,30 @@
+/* One stationary wallpaper beneath the native app surfaces. No blur or frame loop.
+   Layout anchors and token names verified against Codex 26.924.22138. */
+html[data-aemeath-skin]{
+  --aemeath-base:20 18 24;
+  --app-color-background-surface:transparent!important;
+  --app-color-background-surface-under:transparent!important;
+  --app-color-background-editor-opaque:rgb(var(--aemeath-base)/.32)!important;
+  --app-color-background-card:rgb(var(--aemeath-base)/.32)!important;
+  --color-token-side-bar-background:transparent!important;
+  --color-token-bg-primary:transparent!important;
+  --color-token-main-surface-primary:transparent!important;
+  --color-surface:transparent!important;
+  --color-surface-secondary:transparent!important;
+  --color-surface-tertiary:rgb(var(--aemeath-base)/.32)!important;
+  --chat-background-color:transparent!important;
+  --composer-background-color:rgb(var(--aemeath-base)/.68)!important;
+  --app-shell-panel-background:transparent!important;
+  --app-shell-tab-background:rgb(var(--aemeath-base)/.32)!important;
+  background:rgb(var(--aemeath-base))!important;
+}
+html[data-aemeath-skin][data-theme=light],html[data-aemeath-skin]:has(body[data-theme=light]){--aemeath-base:250 248 251}
+@media(prefers-color-scheme:light){html[data-aemeath-skin]:not([data-theme=dark]):not(:has(body[data-theme=dark])){--aemeath-base:250 248 251}}
+html[data-aemeath-skin] body{
+  background-color:rgb(var(--aemeath-base))!important;
+  background-image:linear-gradient(rgb(var(--aemeath-base)/var(--aemeath-wash,.58)),rgb(var(--aemeath-base)/var(--aemeath-wash,.58))),var(--aemeath-wallpaper)!important;
+  background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important;background-attachment:fixed!important;
+}
+html[data-aemeath-skin] :is(#root,[data-app-shell-frame],[data-app-shell-page-surface=true]){background:transparent!important}
+html[data-aemeath-skin] .app-shell-left-panel{background:rgb(var(--aemeath-base)/.18)!important}
+/* Menus, dialogs and floating panels keep their original opaque theme tokens. */
