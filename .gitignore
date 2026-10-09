@@ -1,0 +1,12 @@
+.build/
+node_modules/
+.local-tests/
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+*.mp4
+*.mov
+.vscode/
+.idea/
