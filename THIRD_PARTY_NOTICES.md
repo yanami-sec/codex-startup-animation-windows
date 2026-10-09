@@ -8,7 +8,10 @@ This distribution does not relicense upstream code or grant additional rights
 to third-party code, artwork, brands, or trademarks.
 
 The abstract example artwork and avatar originate from the SVG files retained
-under `assets`. Personal user images and ChatGPT logo variants are not included.
+under `assets`. Demo media under `docs` also shows the maintainer's selected
+custom images. Those images are not claimed as original artwork by this project,
+and their rights remain with their respective creators. Standalone custom source
+images and ChatGPT logo variants are not included.
 
 The official Codex application is a separate installation. This repository does
 not distribute it, its bundled Node runtime, or Microsoft WebView2 SDK binaries.
