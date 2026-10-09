@@ -4,6 +4,14 @@
 
 基于 [panding999/codex-startup-animation](https://github.com/panding999/codex-startup-animation) 和 [paperfish-bot 的 Windows 分支](https://github.com/paperfish-bot/codex-startup-animation) 整理。这是非官方项目，官方应用需要另行安装。
 
+## 动画演示
+
+![启动动画演示](docs/startup-demo.gif)
+
+[观看或下载完整演示视频（720p / 60 帧）](https://github.com/yanami-sec/codex-startup-animation-windows/raw/refs/heads/main/docs/startup-demo.mp4)
+
+演示使用公开版默认素材，展示完整开场与合拢结尾；不包含实际应用的加载等待，也不代表所有电脑的启动耗时。
+
 ## 安装
 
 适用于 Windows 10/11、Windows PowerShell 5.1 和 Microsoft Store 版 `OpenAI.Codex`。需要该版本应用包含 Node.js 运行时；安装程序会检查。无需管理员权限，无需单独安装 Node.js 或 WebView2。
